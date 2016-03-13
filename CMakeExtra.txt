@@ -1,0 +1,9 @@
+# Additional configuration
+# This file is included from auto generated CMakeLists.txt
+
+include_directories(src/qgit2)
+if(DEFINED ENV{QTPM_INCLUDE_PATH})
+    include_directories("$ENV{QTPM_INCLUDE_PATH}/libgit2")
+else()
+    message("ng")
+endif()

@@ -1,0 +1,9 @@
+name = "libqgit2"
+author = "shibukawa.yoshiki"
+organization = ""
+license = "GNU Lesser General Public License (LGPL) v2.1"
+requires = ["github.com/qtpm/libgit2"]
+qtmodules = ["Core"]
+version = [0, 22, 1]
+extra_install_dirs = ["qgit2", "qgit2/private"]
+project_start_year = 2011
