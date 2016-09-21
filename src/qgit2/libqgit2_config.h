@@ -26,13 +26,8 @@
  * Qt wrapper classes for the LibGit2 library.
  */
 
-#ifndef LIBQGIT2_EXPORT
-#if defined(MAKE_LIBQGIT2_LIB)
-#define LIBQGIT2_EXPORT Q_DECL_EXPORT
-#else
-#define LIBQGIT2_EXPORT Q_DECL_IMPORT
-#endif
-#endif
+#define LIBQGIT2_EXPORT
+
 
 #ifndef LIBQGIT2_EXPORT_DEPRECATED
 #define LIBQGIT2_EXPORT_DEPRECATED Q_DECL_DEPRECATED LIBQGIT2_EXPORT
